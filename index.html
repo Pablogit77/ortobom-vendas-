@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortobom</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ortobom</h1>
+        <p>Sua loja preferida de colchão</p>
+    </header>
+    <hr>
+    <nav>
+        <ol>
+            <li>
+                <a href="#1"> Colchão de mola</a>
+            </li>
+            <li>
+                <a href="#2">Colchão de espuma</a>
+            </li>
+            <li>
+                <a href="#3">Colchão acoplado</a>
+            </li>
+            <li>
+                <a href="#4">Colchão ortopédico</a>
+            </li>
+        </ol>
+    </nav>
+    <hr />
+    <br />
+    <br />
+    <div>
+        <section>
+            <table>
+                <thead>
+                <tbody>
+                    <th>#</th>
+                    <th>imagem</th>
+                    <th>Descrição</th>
+                </tbody>
+                <tr>
+                    <td id=#1>1</td>
+                    <td>
+                        <img
+                            src="https://a-static.mlcdn.com.br/280x210/colchao-casal-viuva-mola-ensacada-airtech-128x188x30-ortobom/ortosonho/655017621/505561ca36656ad907697fd403f2455c.jpeg">
+                    </td>
+                    <td>
+                        <h3>Colchão de mola</h3>
+                        <p>Um bom colchão de mola para suas noites de descanso</p>
+                        <h4><b>R$ 900,00</b></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td id=#2>2</td>
+                    <td>
+                        <img
+                            src="https://www.costaricacolchoes.com.br/produtos/imagens/3125-g-Colchao-Ortobom-Espuma-D33-Light--INMETRO-.jpg"">
+                    </td>
+                    <td>
+                        <h3>Colchão de espuma</h3>
+                        <p>Um bom colchão de espuma para relaxar</p>
+                        <h4><b>R$ 400,00</b></h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td id=#3>3</td>
+                    <td>
+                        <img
+                            src="https://images.tcdn.com.br/img/img_prod/1171467/180_colchao_ortobom_fit_springpocket_molas_ensacadas_c_30cm_altura_82_1_56b899f8888876cc71ac8a4f26d61d45.jpeg" width="250" />
+                    </td>
+                    <td>
+                        <h3>Colchão acoplado</h3>
+                        <p>Um bom colchão acoplado para suas noites de descanso</p>
+                        <h4><b>R$ 999,90</b></h4>
+                    </td>
+                </tr>
+                <tr>
+                </thead>
+                <tr>
+                    <td id=#3>4</td>
+                    <td>
+                        <img
+                            src="https://http2.mlstatic.com/D_NQ_NP_929696-MLB50717760594_072022-W.webp" width="250" />
+                    </td>
+                    <td>
+                        <h3>Colchão ortopédico</h3>
+                        <p> Ótimo colchão para se relaxar </p>
+                        <h4><b>R$ 899,90</b></h4>
+                    </td>
+                </tr>
+                <tr>
+            </table>
+        </section>
+    </div>
+    <div>
+        <aside>
+            <fieldset>
+                <legend>Quero comprar</legend>
+                <form method="post" action="index.php">
+                    <labe>Nome</label>
+                        <input name="Nome" type="text"><br />
+                        <labe>Email</label>
+                            <input name="email" type="email"><br />
+                            <br/>
+
+                            <label>Colchão</label><br/>
+                            <input name="colchão" type="radio" id="radio1" value="1"> <label for="radio1">Colchão de mola</label><br />
+                            <input name="colchão" type="radio" value="2"> <label>Colchão de espuma</label><br />
+                            <input name="colchão" type="radio" value="3"> <label>Colchão acoplado</label><br />
+                            <input name="colchão" type="radio" value="4"> <label>Colchão ortopédico</label><br />
+                            <br/>
+                            <label>Forma de pagamento</label><br/>
+                            <select name="pagamento">
+                                <option value="Dinheiro">Dinheiro</option>
+                                <option value="Débito">Débito</option>
+                                <option value="Crédito">Crédito</option>
+                                <option value="PIX">PIX</option>
+                            </select>
+                            <br />
+                            <br />
+                            <button type="submit">comprar</button>
+                            <button type="reset">limpar</button>
+                            <button onclick="adicionarAoCarrinho('Produto 1', 10)">Adicionar ao Carrinho</button>
+
+
+                </form>
+            </fieldset>
+        </aside>
+    </div>
+    <footer>
+        <br />
+        <br />
+        <hr />
+        <p align="center"> Ortobom &reg; 2024 - By Pablo</p>
+    </footer>
+</body>
+
+</html>
